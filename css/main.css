@@ -166,6 +166,7 @@ width:100%;
 
 /*mobile structure*/
 width:100%;	
+
 border-top: 5px solid #EEE;
 border-bottom: 5px solid #EEE;
 
@@ -216,4 +217,93 @@ footer span {
 	text-transform: lowercase;
 	color: #45610E;
 	font-size: 0.875rem;
+}
+
+@media all and (min-width:768px){
+	/*  Tablet styles here */
+
+	.bottom-section .content-wrapper {
+		/*border-top: 5px solid #EEE;
+		border-bottom: 5px solid #EEE;
+		*/
+		justify-content: space-evenly;
+	}
+
+	
+.section-one {
+	/*	
+		width: 29%;
+	*/	
+	/*mobile structure*/
+	width:30%;	
+	}
+	
+	.section-two {
+	/*
+		width: 42%;
+	*/
+	
+	/*mobile structure*/
+	width:40%;	
+	border-top: 0;
+	border-bottom: 0;
+
+	border-left: 5px solid #EEE;
+	border-right: 5px solid #EEE;
+
+	
+	
+		/*border-left: 5px solid #EEE;
+		border-right: 5px solid #EEE;
+		*/
+	
+	}
+	
+	.section-three {
+		/*
+		width: 29%;
+		*/
+	
+		
+	/*mobile structure*/
+	width:30%;	
+	}
+}
+
+@media all and (min-width:1200px){
+	/*  Desktop styles here */
+	/** global Styles**/
+	body{
+		font-size:1em;
+	}
+
+	header .content-wrapper{
+		justify-content: space-between;
+		align-items:center;
+		padding: 20px;
+	}
+
+	header h1{
+
+		width:30%;
+		padding:0;
+		border-bottom:none;
+		text-align:left;
+
+	}
+
+	header nav{
+
+		width:21%;
+		align-items:flex-start;
+
+	}
+
+	header nav ul{
+				
+		display:flex;
+		justify-content: space-between;
+
+
+	}
 }
